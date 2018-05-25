@@ -1,4 +1,5 @@
 ﻿using System;
+using DBInsertSpeedTests.Services;
 
 namespace DBInsertSpeedTests
 {
@@ -6,7 +7,7 @@ namespace DBInsertSpeedTests
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!!");
+            TestService.RunTests();
         }
     }
 }
